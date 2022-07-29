@@ -1,0 +1,47 @@
+.container {
+    width: 1300px;
+    margin: auto;
+    outline: solid 2px black;
+}
+.tittle-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.banner-flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-flex .lion {
+    width: 50%;
+    height: 500px;
+    outline: solid 1px black;
+}
+.features-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-flex .name {
+    width: 33.33%;
+    height: 300px;
+    outline: solid 1px black;
+}
+.achivement-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.achivement-flex .number {
+    width: 25%;
+    height: 300px;
+    outline: solid 1px black;
+}
