@@ -45,3 +45,58 @@
     height: 300px;
     outline: solid 1px black;
 }
+.service-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-flex .idea {
+    width: 33.33%;
+    height: 300px;
+    outline: solid 1px black;
+}
+.portfolio-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-flex .image {
+    width: 33.33%;
+    height: 400px;
+    outline: solid 1px black;
+}
+.team-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-flex .members {
+    width: 25%;
+    height: 400px;
+    outline: solid 1px black;
+}
+.faq-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.faq-flex .text {
+    width: 50%;
+    height: 400px;
+    outline: solid 1px black;
+}
+.quickcontact-flex {
+    display: flex;
+    height: 400px;
+}
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-flex .address {
+    width: 25%;
+    height: 300px;
+    outline: solid 1px black;
+}
+.legel-flex {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+    
