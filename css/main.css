@@ -1,7 +1,15 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 .container {
-    width: 1300px;
-    margin: auto;
-    outline: solid 1px black;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .tittle-flex {
     display: flex;
@@ -21,18 +29,108 @@
 .about-flex {
     display: flex;
 }
-.about-flex .about {
-    width: 50%;
+.about-flex .about1 {
+    width: 100%;
     height: 650px;
     outline: solid 1px;
+    overflow: hidden;
 }
-.about-flex .playbutton {
-    position: absolute;
-    padding-left: 410px;
-    padding-top: 400px;
-    font-size: 70px;
-    border-radius: 100%;
-    background-color: 2px 2px 10px #2196f3;
+.about1 img{
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 650px;
+}
+.about2 {
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.about-content  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    color: #5c768d;
+}
+.about-content p {
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+.finger-text{
+    display: flex;
+    margin-left: 35px;
+    padding-top: 50px;
+}
+.finger-text .logo-finger {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    margin-left: 20px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f1f7fb;
+}
+.logo-finger:hover {
+    background-color: #428bca;
+}
+.logo-finger a {
+    text-decoration: none;
+}
+.logo-finger i {
+    font-size: 30px;
+}
+.finger-text .paragraph1 h3 {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.finger-text .paragraph1 p {
+    text-align: left;
+    padding-left: 10px;
+}
+.gift-text {
+    display: flex;
+    margin-left: 35px;
+    padding-top: 50px;
+}
+.gift-box i {
+    color: #2196f4;
+    font-size: 30px;
+}
+.gift-text .gift-box {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 6px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f1f7fb;
+}
+.gift-box:hover {
+    background-color: #428bca;
+}
+.gift-box a {
+    text-decoration: none;
+}
+.gift-text .paragraph2 h3 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gift-text .paragraph2 p {
+    text-align: left;
+    padding-left: 10px;
 }
 .features-flex {
     display: flex;
@@ -67,9 +165,31 @@
 .feature-box h3 {
     padding-bottom: 20px;
 }
+.feature-box:nth-child(1) {
+    border-left: 0px;
+    border-right: 0px;
+}
+.feature-box:nth-child(3) {
+    border-left: 0px;
+    border-right: 0px;
+}
+.feature-box:nth-child(4) {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.feature-box:nth-child(5) {
+    border-bottom: 0px;
+}
+.feature-box:nth-child(6) {
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
 .achivement-flex {
     display: flex;
-    background-color: lightblue;
+    margin-top: 40px;
+    background-color: #b8d4eb;
 }
 .achivement-flex .number {
     width: 25%;
@@ -92,7 +212,7 @@
 .tittle-service {
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-size: 38px;
     color: darkblue;
 }
@@ -106,22 +226,118 @@
     padding-right: 15px;
     box-sizing: border-box;
     padding-bottom: 30px;
-    height: 200px;
 }
 .service-flex .idea {
     text-align: center;
 }
+.idea .logo {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(210, 250, 250);
+    margin-left: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100%;
+    margin: 0 auto 25px;
+    box-shadow: 0px 0px 10px #607b8b;
+}
+.idea .logo i {
+    font-size: 35px;
+    color: #2196f4;
+}
+.logo:hover {
+    box-shadow: 0px 0px 30px #428bca;
+    transition: all 0.5s;
+}
+.servicehr {
+    width: 60px;
+    height: 2px;
+    background-color: #2196f3;
+    padding-left: 30px;
+}
 .idea h2 {
-    font-size: 20px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .portfolio-flex {
     display: flex;
     flex-wrap: wrap;
 }
-.portfolio-flex .image {
-    width: 33.33%;
-    height: 400px;
-    outline: solid 1px black;
+.portfolio-box {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.image {
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height: auto;
+}
+.image img {
+    width: 417px;
+    height: 267px;
+    transition: all 0.5s ease;
+}
+.image:hover img {
+    transform: scale(1.1);
+}
+.portfolio-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.30);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.image:hover .portfolio-text {
+    opacity: 1;
+}
+.portfolio-info {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.image:hover .portfolio-info {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.portfolio-info h5 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.portfolio-info h6 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.portfolio-icons {
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio-icons a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    column-gap: #000;
+    display: block;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0 5px;
 }
 .team-flex {
     display: flex;
