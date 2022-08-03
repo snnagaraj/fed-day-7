@@ -343,10 +343,63 @@
     display: flex;
     flex-wrap: wrap;
 }
-.team-flex .members {
+.team-box {
     width: 25%;
-    height: 400px;
-    outline: solid 1px black;
+    padding:0 15px;
+}
+.team-info {
+    position: relative;
+}
+.team-info .members {
+    overflow: hidden;
+    border-radius: 5px;
+}
+.team-info .members img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all .5s ease;
+}
+.team-info:hover .members img {
+    transform: scale(1.1);
+
+}
+.team-text {
+    background-color: rgba(0, 0, 0, 0.41);
+    padding: 20px 20px;
+    text-align: center;
+    position: absolute;
+    bottom: -43px;
+    left: 3%;
+    width: 80%;
+    border-radius: 5px;
+}
+.team-text h5 {
+    color: #fff;
+    font-size: 20px;
+}
+.team-text .hrline {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px auto;
+}
+.team-text h6 {
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.team-icon a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px; 
+    transition: all .4s ease;  
+}
+.team-icon a:hover {
+    color: blue;
+}
+.team-icon a .icofont-instagram{
+    margin-right: 3px;
 }
 .faq-flex {
     display: flex;
