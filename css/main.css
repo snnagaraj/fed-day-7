@@ -339,16 +339,12 @@
     line-height: 30px;
     margin: 0 5px;
 }
-.team-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
 .team-box {
-    width: 25%;
-    padding:0 15px;
+    display: flex;
 }
 .team-info {
     position: relative;
+    margin-right: 10px;
 }
 .team-info .members {
     overflow: hidden;
