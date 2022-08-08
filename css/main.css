@@ -10,28 +10,110 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.tittle {
+    border-bottom: solid 1px rgb(104, 91, 91);
+}
 .tittle-flex {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.contact i {
+    color: #186294;
+    padding-right: 5px;
+}
+.contact span:hover {
+    color: #2196f4;
+    transition: all 0.5s ease;
+}
+.social-connect i {
+    padding: 8px;
+}
+.social-connect i:hover {
+    color: #2196f4;
+    transition: all 0.5s ease;
+}
+.header {
+    margin: 20px;
 }
 .header-flex{
     display: flex;
     justify-content: space-between;
     height: 70px;
 }
-.banner-flex {
+.header-flex .header-logo a {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #186294;
+}
+.navbar{
     display: flex;
-    flex-wrap: wrap;
-    height: 400px;
+    list-style-type: none;
+}
+.navbar a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #2196f4;
+    transition: all 0.5s ease;
+}
+.banner {
+    width: 100%;
+    height: 600px;
+}
+.bgimage {
+    background-image: url(../slide-1.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.bgimage::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 100%;
+    height: 600px;
+}
+.banner-flex {
+    position: absolute;
+    top: 40%;
+}
+.banner-flex h1 {
+    font-size: 40px;
+    color: #eee;
+    font-weight: 800;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.banner-flex p {
+    color: #eee;
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.banner-flex .button {
+    color: #2196f4;
+}
+.about {
+    padding-top: 30px;
 }
 .about-flex {
     display: flex;
+    box-shadow: 0 0 5px 0;
+    box-sizing: border-box;
+    padding-bottom: 20px;
 }
 .about-flex .about1 {
     width: 100%;
     height: 650px;
-    outline: solid 1px;
     overflow: hidden;
 }
 .about1 img{
@@ -94,13 +176,17 @@
     text-align: left;
     padding-left: 10px;
 }
+.paragraph1 a {
+    text-decoration: none;
+    color: #000;
+}
 .gift-text {
     display: flex;
     margin-left: 35px;
     padding-top: 50px;
 }
 .gift-box i {
-    color: #2196f4;
+    color: #0f43b4;
     font-size: 30px;
 }
 .gift-text .gift-box {
@@ -185,10 +271,12 @@
     border-left: 0px;
     border-bottom: 0px;
 }
+.achivements {
+    background-color: #2196f4;
+}
 .achivement-flex {
     display: flex;
     margin-top: 40px;
-    background-color: #b8d4eb;
 }
 .achivement-flex .number {
     width: 25%;
@@ -253,7 +341,7 @@
     width: 60px;
     height: 2px;
     background-color: #2196f3;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .idea h2 {
     font-size: 30px;
@@ -265,6 +353,27 @@
 .portfolio-flex {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 20px;
+}
+.head-paragraph h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #253f50;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.head-paragraph p {
+    font-size: 15px;
+    color: #5c768d;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.head-paragraph .button {
+    text-align: center;
+    justify-content: center;
+}
+.head-paragraph .button:hover {
+    color: #0f43b4;
 }
 .portfolio-box {
     width: 30%;
@@ -326,6 +435,9 @@
     display: flex;
     justify-content: space-around;
 }
+.portfolio-icons i:hover {
+    color: #0f43b4;
+}
 .portfolio-icons a {
     width: 30px;
     height: 30px;
@@ -342,6 +454,19 @@
 .team {
     padding-top: 20px;
     padding-bottom: 40px;
+}
+.team-hp h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #253f50;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.team-hp p {
+    font-size: 15px;
+    font-style: inherit;
+    padding-bottom: 17px;
+    text-align: center;
 }
 .team-box {
     display: flex;
@@ -410,23 +535,32 @@
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-.faq-flex .faq-head {
-    width: 100%;
-    display: flex;
-    text-align: center;
-}
-.faq-flex .faq-head h3{
+.contact-header {
     font-size: 30px;
-    color: #2196f3;
+    font-weight: bold;
+    color: #253f50;
+    text-align: center;
+    padding-top: 35px;
+}
+.faq-head h3 {
+    text-align: center;
+    color: #253f50;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .faq-flex .text-1 {
     width: 50%;
     height: 500px;
+    padding: 15px;
 }
 .faq-flex .text-1 h4 {
     font-size: 25px;
     font-weight: 600;
     color: rgb(12, 49, 78);
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .faq-flex .text-1 p {
     font-size: 20px;
@@ -436,11 +570,14 @@
 .faq-flex .text-2 {
     width: 50%;
     height: 500px;
+    padding: 15px;
 }
 .faq-flex .text-2 h4 {
     font-size: 25px;
     font-weight: 600;
     color: rgb(12, 49, 78) ;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .faq-flex .text-2 p {
     font-size: 20px;
