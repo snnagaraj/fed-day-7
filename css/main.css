@@ -50,20 +50,25 @@
     padding-top: 16px;
 }
 .header-flex .header-logo a {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #1c5c93;
     text-decoration: none;
-    color: #186294;
 }
 .navbar{
     display: flex;
     list-style-type: none;
 }
 .navbar a {
-    padding: 10px;
-    color: #000;
+    padding: 15px;
+    font-size: 20px;
     text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444;
 }
+
 .navbar a:hover {
     color: #2196f4;
     transition: all 0.5s ease;
@@ -179,6 +184,7 @@
 }
 .logo-finger:hover {
     background-color: #428bca;
+    color: #eee;
 }
 .logo-finger a {
     text-decoration: none;
@@ -229,6 +235,7 @@
 }
 .gift-box:hover {
     background-color: #428bca;
+    color: #eee;
 }
 .gift-box a {
     text-decoration: none;
@@ -314,7 +321,6 @@
 .achivement-flex {
     display: flex;
     margin-top: 40px;
-    
 }
 .achivement-flex .number {
     margin-top: 48px;
@@ -445,8 +451,6 @@
 .picture-button {
     text-align: center;
     font-size: 20px ;
-
-
 }
 .picture-button .ramesh{
     font-size: 12px;
@@ -522,9 +526,7 @@
     display: flex;
     justify-content: space-around;
 }
-.portfolio-icons i:hover {
-    color: #0f43b4;
-}
+
 .portfolio-icons a {
     width: 30px;
     height: 30px;
@@ -537,6 +539,10 @@
     text-decoration: none;
     line-height: 30px;
     margin: 0 5px;
+}
+.portfolio-icons a:hover{
+    background: #0f43b4;
+    color: #fff;
 }
 .team {
     padding-top: 20px;
@@ -779,7 +785,7 @@
 }
 .easy-contact {
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 .form-box {
     background-color: #fff;
@@ -790,20 +796,41 @@
     display: flex;
     flex-wrap: wrap;
 }
+.form-group {
+    margin-bottom: 20px;
+}
 .col-6 {
     width: 50%;
-    height: 50px;
-    line-height: 1.5;
-    padding: 10px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .col-12 {
     width: 100%;
-    height: 50px;
     padding-left: 15px;
     padding-right: 15px;
 }
 .form-group .form-input {
     width: 100%;
+    height: 45  px;
+    padding: 10px;
+    border: solid 1px #ccc;
+}
+.form-group .form-input:focus {
+    outline: 0;
+}
+.form-button{
+    margin: auto;
+
+}
+.form-button .mani{
+    font-size: 15px;
+    width: 150%;
+    height: 35px;
+    background: #428BCA;
+    color: #fff;
+    border: none;
+    
+
 }
 .footer {
     background-color:#5c768d ;
